@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+:root {
+  --hero-mask-x: 0;
+  --hero-mask-y: 0;
+  --hero-mask-size: 300px;
+}
+
+@media (max-width: 1028px) {
+  :root {
+    --hero-mask-size: 200px;
+  }
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto w-full max-w-[80rem] px-5 md:px-8;
+  }
+}
+
+@layer components {
+  .clip-path-circle {
+    clip-path: circle(var(--hero-mask-size) at var(--hero-mask-x) var(--hero-mask-y));
+  }
+
+  .mask-image-circle {
+    mask-image: radial-gradient(var(--hero-mask-size) at var(--hero-mask-x) var(--hero-mask-y), #000 20%, transparent);
+  }
+}
