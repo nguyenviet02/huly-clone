@@ -13,7 +13,6 @@ const Hero = () => {
     x: 0,
     y: 0,
   });
-  console.log('☠️ ~ Hero ~ bgButtonPosition:', bgButtonPosition);
 
   useEffect(() => {
     const bgPosition = heroBgRef.current.getBoundingClientRect();
@@ -51,7 +50,7 @@ const Hero = () => {
 
   return (
     <section className="hero px-safe relative h-[1438px] w-full overflow-hidden bg-[#090a0c] pt-[184px]">
-      <div className="relative container flex h-full flex-col">
+      <div className="m relative container flex h-full flex-col">
         {/* Background */}
         <div
           id="hero-bg"
@@ -62,7 +61,7 @@ const Hero = () => {
           <div className="absolute bottom-0 -left-[344px] z-0 aspect-[1.335187] w-[1920px] max-w-none mix-blend-lighten">
             <video src="/videos/hero.mp4" autoPlay muted loop className="absolute inset-0 size-full" />
           </div>
-          <div className="clip-path-circle relative z-10 size-full mix-blend-overlay">
+          <div className="relative z-10 size-full mix-blend-overlay">
             <img
               src="/images/hero-bg-1.svg"
               alt=""
