@@ -22,6 +22,10 @@
   .container {
     @apply mx-auto w-full max-w-[80rem] px-5 md:px-8;
   }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-[64rem] px-5 md:px-8;
+  }
 }
 
 @layer components {
