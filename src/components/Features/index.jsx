@@ -7,7 +7,7 @@ import NotificationsRive from './NotificationsRive';
 const Features = () => {
   return (
     <div className="container pt-40">
-      <h2 className="text-[78px] font-semibold text-[#0b0d10] text-test">Unmatched productivity</h2>
+      <h2 className="text-test text-[78px] font-semibold text-[#0b0d10]">Unmatched productivity</h2>
       <p className="max-w-[600px] text-[16px] font-medium text-[#303236]">
         Huly is a process, project, time, and knowledge management platform that provides amazing collaboration
         opportunities for developers and product teams alike.
@@ -44,8 +44,10 @@ const Features = () => {
             </div>
           </div>
           <div className="relative h-[420px] w-[428px] shrink-0 overflow-hidden rounded-xl bg-transparent">
-            <NotificationsRive />
-            <div className="absolute top-1/2 left-1/2 -z-[1] aspect-[1.52381] h-full -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute z-10 size-full">
+              <NotificationsRive />
+            </div>
+            <div className="absolute top-1/2 left-1/2 z-0 aspect-[1.52381] h-full -translate-x-1/2 -translate-y-1/2">
               <video src="/videos/waves.mp4" autoPlay muted loop className="h-full w-full object-cover"></video>
             </div>
             <div className="absolute right-0 bottom-0 left-0 flex items-center justify-center gap-2 p-6 pt-0">
