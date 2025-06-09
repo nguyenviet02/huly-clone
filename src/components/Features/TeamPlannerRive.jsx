@@ -14,7 +14,6 @@ const TeamPlannerRive = () => {
       alignment: Alignment.Center,
     }),
   });
-  console.log('☠️ ~ TeamPlannerRive ~ teamPlannerRive:', teamPlannerRive);
 
   const handleMouseEnter = () => {
     teamPlannerRive.play('hover-on');

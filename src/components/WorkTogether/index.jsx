@@ -45,7 +45,7 @@ const WorkTogether = () => {
   ];
 
   return (
-    <div className="py-60">
+    <div className="overflow-hidden py-60">
       <div className="container max-w-[1344px]">
         <div className="pr-16 pl-80">
           <h2 className="relative z-10 max-w-[550px] text-[76px] leading-[0.9] font-semibold tracking-tighter">

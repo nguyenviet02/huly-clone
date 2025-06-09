@@ -78,7 +78,7 @@ const MetaBrain = () => {
           alt=""
         />
         <img
-          class="absolute right-[-6%] bottom-[5%] w-[48%]"
+          className="absolute right-[-6%] bottom-[5%] w-[48%]"
           src="/images/metabrain-bg2.svg"
           width="768"
           height="699"
@@ -86,7 +86,7 @@ const MetaBrain = () => {
           alt=""
         ></img>
         <img
-          class="absolute bottom-[0%] left-[-12%] w-[47%]"
+          className="absolute bottom-[0%] left-[-12%] w-[47%]"
           src="/images/metabrain-bg3.svg"
           width="752"
           height="689"

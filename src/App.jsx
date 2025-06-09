@@ -3,26 +3,23 @@ import Features from './components/Features';
 import WorkTogether from './components/WorkTogether';
 import SyncWithGithub from './components/SyncWithGithub';
 import MetaBrain from './components/MetaBrain';
+import Knowledge from './components/Knowledge';
 
 function App() {
   return (
-    <main className="relative w-full overflow-hidden bg-[#f6f6f6]">
+    <main className="relative w-full bg-[#f6f6f6]">
       <Hero />
       <Features />
       <WorkTogether />
       <SyncWithGithub />
-      <MetaBrain />
-      <div className="relative z-0">
-        <div className="container-wide relative">
-          <img
-            src="/images/lines-bg.png"
-            width={595}
-            height={3167}
-            className="pointer-events-none absolute -bottom-[247px] -left-[153px] -z-10"
-            alt=""
-          />
+      <div className="relative bg-[#f6f6f6]">
+        <MetaBrain />
+        <Knowledge />
+        <div className="container-wide absolute top-[247px] left-[70px] z-0">
+          <img src="/images/lines-bg.png" width={595} height={3167} className="pointer-events-none" alt="" />
         </div>
       </div>
+      <SyncWithGithub />
     </main>
   );
 }
