@@ -40,4 +40,22 @@
   .mask-image-circle {
     mask-image: radial-gradient(var(--hero-mask-size) at var(--hero-mask-x) var(--hero-mask-y), #000 20%, transparent);
   }
+
+  .typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret 0.75s step-end infinite;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
