@@ -48,6 +48,11 @@
       typing 3.5s steps(40, end),
       blink-caret 0.75s step-end infinite;
   }
+
+  .cursor {
+    @apply before:absolute before:bottom-full before:left-1/2 before:size-15 before:-translate-x-1/2 before:rounded-full before:border-2 before:border-[#5683da] before:bg-[url('/images/blue-pin-image.jpg')] before:bg-cover before:bg-center before:content-[''];
+    @apply after:absolute after:top-full after:left-1/2 after:size-3 after:-translate-x-1/2 after:rounded-full after:bg-[#5683da] after:content-[''];
+  }
 }
 
 /* The typing effect */
