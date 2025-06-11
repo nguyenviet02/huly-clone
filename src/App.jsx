@@ -15,7 +15,7 @@ function App() {
       <div className="relative bg-[#f6f6f6]">
         <MetaBrain />
         <Knowledge />
-        <div className="container-wide absolute top-[247px] left-[70px] z-0">
+        <div className="container-wide absolute top-[0px] left-[70px] z-0">
           <img src="/images/lines-bg.png" width={595} height={3167} className="pointer-events-none" alt="" />
         </div>
       </div>
