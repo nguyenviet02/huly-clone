@@ -2,7 +2,7 @@ import React from 'react';
 
 const MetaBrain = () => {
   return (
-    <section className="relative pt-[247px] pb-[180px]">
+    <section className="relative w-full overflow-x-hidden pt-[247px] pb-[180px]">
       <div className="container-wide relative z-10">
         <div className="relative z-30 ml-64 flex w-full flex-col gap-6">
           <h1 className="max-w-2xl text-[76px] leading-[0.9] font-semibold tracking-tight text-[#0b0d10]">
